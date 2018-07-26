@@ -1,0 +1,19 @@
+{
+	"version": "0.0.3",
+	"summary": "Reusable Terraform modules created by Gruntwork.io",
+	"repository": "http://github.com/karandit/terramake-modules-example.git",
+	"license": "BSD3",
+	"source-directories": [
+		"src"
+	],
+	"exposed-modules": [
+	    "Consul",
+	    "Mysql",
+	    "AsgElb"
+	],
+	"dependencies": {
+		"elm-lang/core": "5.0.0 <= v < 6.0.0",
+		"karandit/elm-terramake":  "0.1.8 <= v < 1.0.0"
+	},
+	"elm-version": "0.18.0 <= v < 0.19.0"
+}
